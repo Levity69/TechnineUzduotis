@@ -1,0 +1,15 @@
+E:\REIKALINGI FAILAI\TechnineUzduotis\TechninėUžduotisPresentConnection\TechnineUzduotis\obj\Debug\net5.0\TechnineUzduotis.GeneratedMSBuildEditorConfig.editorconfig
+E:\REIKALINGI FAILAI\TechnineUzduotis\TechninėUžduotisPresentConnection\TechnineUzduotis\obj\Debug\net5.0\TechnineUzduotis.AssemblyInfoInputs.cache
+E:\REIKALINGI FAILAI\TechnineUzduotis\TechninėUžduotisPresentConnection\TechnineUzduotis\obj\Debug\net5.0\TechnineUzduotis.AssemblyInfo.cs
+E:\REIKALINGI FAILAI\TechnineUzduotis\TechninėUžduotisPresentConnection\TechnineUzduotis\obj\Debug\net5.0\TechnineUzduotis.csproj.CoreCompileInputs.cache
+E:\REIKALINGI FAILAI\TechnineUzduotis\TechninėUžduotisPresentConnection\TechnineUzduotis\bin\Debug\net5.0\TechnineUzduotis.exe
+E:\REIKALINGI FAILAI\TechnineUzduotis\TechninėUžduotisPresentConnection\TechnineUzduotis\bin\Debug\net5.0\TechnineUzduotis.deps.json
+E:\REIKALINGI FAILAI\TechnineUzduotis\TechninėUžduotisPresentConnection\TechnineUzduotis\bin\Debug\net5.0\TechnineUzduotis.runtimeconfig.json
+E:\REIKALINGI FAILAI\TechnineUzduotis\TechninėUžduotisPresentConnection\TechnineUzduotis\bin\Debug\net5.0\TechnineUzduotis.runtimeconfig.dev.json
+E:\REIKALINGI FAILAI\TechnineUzduotis\TechninėUžduotisPresentConnection\TechnineUzduotis\bin\Debug\net5.0\TechnineUzduotis.dll
+E:\REIKALINGI FAILAI\TechnineUzduotis\TechninėUžduotisPresentConnection\TechnineUzduotis\bin\Debug\net5.0\ref\TechnineUzduotis.dll
+E:\REIKALINGI FAILAI\TechnineUzduotis\TechninėUžduotisPresentConnection\TechnineUzduotis\bin\Debug\net5.0\TechnineUzduotis.pdb
+E:\REIKALINGI FAILAI\TechnineUzduotis\TechninėUžduotisPresentConnection\TechnineUzduotis\obj\Debug\net5.0\TechnineUzduotis.dll
+E:\REIKALINGI FAILAI\TechnineUzduotis\TechninėUžduotisPresentConnection\TechnineUzduotis\obj\Debug\net5.0\ref\TechnineUzduotis.dll
+E:\REIKALINGI FAILAI\TechnineUzduotis\TechninėUžduotisPresentConnection\TechnineUzduotis\obj\Debug\net5.0\TechnineUzduotis.pdb
+E:\REIKALINGI FAILAI\TechnineUzduotis\TechninėUžduotisPresentConnection\TechnineUzduotis\obj\Debug\net5.0\TechnineUzduotis.genruntimeconfig.cache

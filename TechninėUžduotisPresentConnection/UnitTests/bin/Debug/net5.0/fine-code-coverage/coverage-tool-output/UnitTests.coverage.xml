@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<coverage line-rate="0.9915" branch-rate="1" version="1.9" timestamp="1641756459" lines-covered="118" lines-valid="119" branches-covered="10" branches-valid="10">
+  <sources>
+    <source>E:\REIKALINGI FAILAI\TechnineUzduotis\TechninėUžduotisPresentConnection\</source>
+    <source>C:\</source>
+  </sources>
+  <packages>
+    <package name="TechnineUzduotis" line-rate="1" branch-rate="1" complexity="22">
+      <classes>
+        <class name="TechnineUzduotis.Classes.Users.Client" filename="TechnineUzduotis\Classes\Users\Client.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name="get_VAT" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="17" hits="81" branch="False" />
+              </lines>
+            </method>
+            <method name="set_VAT" signature="(TechnineUzduotis.Classes.Other.VAT)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="45" branch="False" />
+              </lines>
+            </method>
+            <method name="get_IsVATPayer" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="45" branch="False" />
+              </lines>
+            </method>
+            <method name="set_IsVATPayer" signature="(System.Boolean)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="25" hits="45" branch="False" />
+              </lines>
+            </method>
+            <method name="get_Country" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="45" branch="False" />
+              </lines>
+            </method>
+            <method name="set_Country" signature="(TechnineUzduotis.Classes.Enumerated.EnumClass/CountryList)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="45" branch="False" />
+              </lines>
+            </method>
+            <method name="SetVAT" signature="(TechnineUzduotis.Classes.Other.VAT)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="43" hits="15" branch="False" />
+                <line number="44" hits="15" branch="False" />
+                <line number="45" hits="15" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Boolean,TechnineUzduotis.Classes.Enumerated.EnumClass/CountryList)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="36" hits="15" branch="False" />
+                <line number="37" hits="15" branch="False" />
+                <line number="38" hits="15" branch="False" />
+                <line number="39" hits="15" branch="False" />
+                <line number="40" hits="15" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="17" hits="81" branch="False" />
+            <line number="18" hits="45" branch="False" />
+            <line number="24" hits="45" branch="False" />
+            <line number="25" hits="45" branch="False" />
+            <line number="32" hits="45" branch="False" />
+            <line number="33" hits="45" branch="False" />
+            <line number="43" hits="15" branch="False" />
+            <line number="44" hits="15" branch="False" />
+            <line number="45" hits="15" branch="False" />
+            <line number="36" hits="15" branch="False" />
+            <line number="37" hits="15" branch="False" />
+            <line number="38" hits="15" branch="False" />
+            <line number="39" hits="15" branch="False" />
+            <line number="40" hits="15" branch="False" />
+          </lines>
+        </class>
+        <class name="TechnineUzduotis.Classes.Users.Provider" filename="TechnineUzduotis\Classes\Users\Provider.cs" line-rate="1" branch-rate="1" complexity="13">
+          <methods>
+            <method name="SetVAT" signature="(TechnineUzduotis.Classes.UserTypes.Physical,System.Double)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="6" branch="False" />
+                <line number="27" hits="6" branch="False" />
+                <line number="28" hits="6" branch="False" />
+                <line number="29" hits="6" branch="False" />
+              </lines>
+            </method>
+            <method name="SetVAT" signature="(TechnineUzduotis.Classes.UserTypes.Juridical,System.Double)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="9" branch="False" />
+                <line number="33" hits="9" branch="False" />
+                <line number="34" hits="9" branch="False" />
+                <line number="35" hits="9" branch="False" />
+              </lines>
+            </method>
+            <method name="CreateVAT" signature="(System.Double,TechnineUzduotis.Classes.Enumerated.EnumClass/CountryList,System.Boolean,System.String)" line-rate="1" branch-rate="1" complexity="10">
+              <lines>
+                <line number="38" hits="15" branch="False" />
+                <line number="39" hits="15" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="15" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="40" hits="5" branch="False" />
+                <line number="41" hits="5" branch="False" />
+                <line number="42" hits="5" branch="False" />
+                <line number="44" hits="15" branch="False" />
+                <line number="48" hits="15" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="43" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="49" hits="3" branch="False" />
+                <line number="50" hits="3" branch="False" />
+                <line number="51" hits="3" branch="False" />
+                <line number="54" hits="12" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="107" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="55" hits="3" branch="False" />
+                <line number="56" hits="3" branch="False" />
+                <line number="57" hits="3" branch="False" />
+                <line number="58" hits="3" branch="False" />
+                <line number="62" hits="9" branch="False" />
+                <line number="64" hits="9" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="180" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="65" hits="3" branch="False" />
+                <line number="66" hits="3" branch="False" />
+                <line number="67" hits="3" branch="False" />
+                <line number="69" hits="3" branch="False" />
+                <line number="70" hits="3" branch="False" />
+                <line number="73" hits="6" branch="True" condition-coverage="100% (2/2)">
+                  <conditions>
+                    <condition number="252" type="jump" coverage="100%" />
+                  </conditions>
+                </line>
+                <line number="74" hits="3" branch="False" />
+                <line number="75" hits="3" branch="False" />
+                <line number="76" hits="3" branch="False" />
+                <line number="78" hits="3" branch="False" />
+                <line number="79" hits="3" branch="False" />
+                <line number="83" hits="3" branch="False" />
+                <line number="84" hits="3" branch="False" />
+                <line number="86" hits="3" branch="False" />
+                <line number="87" hits="3" branch="False" />
+                <line number="90" hits="15" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(System.Boolean,TechnineUzduotis.Classes.Enumerated.EnumClass/CountryList,TechnineUzduotis.Classes.Other.ProviderInterface)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="15" branch="False" />
+                <line number="19" hits="15" branch="False" />
+                <line number="20" hits="15" branch="False" />
+                <line number="21" hits="15" branch="False" />
+                <line number="22" hits="15" branch="False" />
+                <line number="23" hits="15" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="26" hits="6" branch="False" />
+            <line number="27" hits="6" branch="False" />
+            <line number="28" hits="6" branch="False" />
+            <line number="29" hits="6" branch="False" />
+            <line number="32" hits="9" branch="False" />
+            <line number="33" hits="9" branch="False" />
+            <line number="34" hits="9" branch="False" />
+            <line number="35" hits="9" branch="False" />
+            <line number="38" hits="15" branch="False" />
+            <line number="39" hits="15" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="15" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="40" hits="5" branch="False" />
+            <line number="41" hits="5" branch="False" />
+            <line number="42" hits="5" branch="False" />
+            <line number="44" hits="15" branch="False" />
+            <line number="48" hits="15" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="43" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="49" hits="3" branch="False" />
+            <line number="50" hits="3" branch="False" />
+            <line number="51" hits="3" branch="False" />
+            <line number="54" hits="12" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="107" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="55" hits="3" branch="False" />
+            <line number="56" hits="3" branch="False" />
+            <line number="57" hits="3" branch="False" />
+            <line number="58" hits="3" branch="False" />
+            <line number="62" hits="9" branch="False" />
+            <line number="64" hits="9" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="180" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="65" hits="3" branch="False" />
+            <line number="66" hits="3" branch="False" />
+            <line number="67" hits="3" branch="False" />
+            <line number="69" hits="3" branch="False" />
+            <line number="70" hits="3" branch="False" />
+            <line number="73" hits="6" branch="True" condition-coverage="100% (2/2)">
+              <conditions>
+                <condition number="252" type="jump" coverage="100%" />
+              </conditions>
+            </line>
+            <line number="74" hits="3" branch="False" />
+            <line number="75" hits="3" branch="False" />
+            <line number="76" hits="3" branch="False" />
+            <line number="78" hits="3" branch="False" />
+            <line number="79" hits="3" branch="False" />
+            <line number="83" hits="3" branch="False" />
+            <line number="84" hits="3" branch="False" />
+            <line number="86" hits="3" branch="False" />
+            <line number="87" hits="3" branch="False" />
+            <line number="90" hits="15" branch="False" />
+            <line number="18" hits="15" branch="False" />
+            <line number="19" hits="15" branch="False" />
+            <line number="20" hits="15" branch="False" />
+            <line number="21" hits="15" branch="False" />
+            <line number="22" hits="15" branch="False" />
+            <line number="23" hits="15" branch="False" />
+          </lines>
+        </class>
+        <class name="TechnineUzduotis.Classes.Other.VAT" filename="TechnineUzduotis\Classes\Other\VAT.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name=".ctor" signature="(System.String,System.String,System.Double,System.Double,System.Double)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="15" branch="False" />
+                <line number="19" hits="15" branch="False" />
+                <line number="20" hits="15" branch="False" />
+                <line number="21" hits="15" branch="False" />
+                <line number="22" hits="15" branch="False" />
+                <line number="23" hits="15" branch="False" />
+                <line number="24" hits="15" branch="False" />
+                <line number="25" hits="15" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="15" branch="False" />
+            <line number="19" hits="15" branch="False" />
+            <line number="20" hits="15" branch="False" />
+            <line number="21" hits="15" branch="False" />
+            <line number="22" hits="15" branch="False" />
+            <line number="23" hits="15" branch="False" />
+            <line number="24" hits="15" branch="False" />
+            <line number="25" hits="15" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="UnitTests" line-rate="0.98" branch-rate="1" complexity="6">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="Users\tomluk4\.nuget\packages\microsoft.net.test.sdk\16.5.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="False" />
+          </lines>
+        </class>
+        <class name="UnitTests.Tests" filename="UnitTests\UnitTest1.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="ProviderIsNotAVATPayer" signature="(TechnineUzduotis.Classes.Enumerated.EnumClass/CountryList,TechnineUzduotis.Classes.Enumerated.EnumClass/CountryList,System.Int32,System.Double,System.Double)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="18" hits="3" branch="False" />
+                <line number="19" hits="3" branch="False" />
+                <line number="20" hits="3" branch="False" />
+                <line number="21" hits="3" branch="False" />
+                <line number="23" hits="3" branch="False" />
+                <line number="24" hits="3" branch="False" />
+                <line number="26" hits="3" branch="False" />
+                <line number="28" hits="3" branch="False" />
+                <line number="29" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="ClientIsOutsideOfEU" signature="(TechnineUzduotis.Classes.Enumerated.EnumClass/CountryList,TechnineUzduotis.Classes.Enumerated.EnumClass/CountryList,System.Int32,System.Double,System.Double)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="36" hits="3" branch="False" />
+                <line number="37" hits="3" branch="False" />
+                <line number="38" hits="3" branch="False" />
+                <line number="39" hits="3" branch="False" />
+                <line number="41" hits="3" branch="False" />
+                <line number="42" hits="3" branch="False" />
+                <line number="43" hits="3" branch="False" />
+                <line number="45" hits="3" branch="False" />
+                <line number="46" hits="3" branch="False" />
+                <line number="47" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="ClientLivesInEUAndDoesntPayVAT" signature="(TechnineUzduotis.Classes.Enumerated.EnumClass/CountryList,TechnineUzduotis.Classes.Enumerated.EnumClass/CountryList,System.Int32,System.Double,System.Double)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="54" hits="3" branch="False" />
+                <line number="55" hits="3" branch="False" />
+                <line number="56" hits="3" branch="False" />
+                <line number="57" hits="3" branch="False" />
+                <line number="59" hits="3" branch="False" />
+                <line number="60" hits="3" branch="False" />
+                <line number="61" hits="3" branch="False" />
+                <line number="63" hits="3" branch="False" />
+                <line number="64" hits="3" branch="False" />
+                <line number="65" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="ClientLivesInEUAndPaysVAT" signature="(TechnineUzduotis.Classes.Enumerated.EnumClass/CountryList,TechnineUzduotis.Classes.Enumerated.EnumClass/CountryList,System.Int32,System.Double,System.Double)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="72" hits="3" branch="False" />
+                <line number="73" hits="3" branch="False" />
+                <line number="74" hits="3" branch="False" />
+                <line number="75" hits="3" branch="False" />
+                <line number="77" hits="3" branch="False" />
+                <line number="78" hits="3" branch="False" />
+                <line number="79" hits="3" branch="False" />
+                <line number="81" hits="3" branch="False" />
+                <line number="82" hits="3" branch="False" />
+                <line number="83" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name="ClientAndProviderLiveInEU" signature="(TechnineUzduotis.Classes.Enumerated.EnumClass/CountryList,System.Int32,System.Double,System.Double)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="91" hits="3" branch="False" />
+                <line number="92" hits="3" branch="False" />
+                <line number="93" hits="3" branch="False" />
+                <line number="94" hits="3" branch="False" />
+                <line number="96" hits="3" branch="False" />
+                <line number="97" hits="3" branch="False" />
+                <line number="99" hits="3" branch="False" />
+                <line number="101" hits="3" branch="False" />
+                <line number="102" hits="3" branch="False" />
+                <line number="103" hits="3" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="18" hits="3" branch="False" />
+            <line number="19" hits="3" branch="False" />
+            <line number="20" hits="3" branch="False" />
+            <line number="21" hits="3" branch="False" />
+            <line number="23" hits="3" branch="False" />
+            <line number="24" hits="3" branch="False" />
+            <line number="26" hits="3" branch="False" />
+            <line number="28" hits="3" branch="False" />
+            <line number="29" hits="3" branch="False" />
+            <line number="36" hits="3" branch="False" />
+            <line number="37" hits="3" branch="False" />
+            <line number="38" hits="3" branch="False" />
+            <line number="39" hits="3" branch="False" />
+            <line number="41" hits="3" branch="False" />
+            <line number="42" hits="3" branch="False" />
+            <line number="43" hits="3" branch="False" />
+            <line number="45" hits="3" branch="False" />
+            <line number="46" hits="3" branch="False" />
+            <line number="47" hits="3" branch="False" />
+            <line number="54" hits="3" branch="False" />
+            <line number="55" hits="3" branch="False" />
+            <line number="56" hits="3" branch="False" />
+            <line number="57" hits="3" branch="False" />
+            <line number="59" hits="3" branch="False" />
+            <line number="60" hits="3" branch="False" />
+            <line number="61" hits="3" branch="False" />
+            <line number="63" hits="3" branch="False" />
+            <line number="64" hits="3" branch="False" />
+            <line number="65" hits="3" branch="False" />
+            <line number="72" hits="3" branch="False" />
+            <line number="73" hits="3" branch="False" />
+            <line number="74" hits="3" branch="False" />
+            <line number="75" hits="3" branch="False" />
+            <line number="77" hits="3" branch="False" />
+            <line number="78" hits="3" branch="False" />
+            <line number="79" hits="3" branch="False" />
+            <line number="81" hits="3" branch="False" />
+            <line number="82" hits="3" branch="False" />
+            <line number="83" hits="3" branch="False" />
+            <line number="91" hits="3" branch="False" />
+            <line number="92" hits="3" branch="False" />
+            <line number="93" hits="3" branch="False" />
+            <line number="94" hits="3" branch="False" />
+            <line number="96" hits="3" branch="False" />
+            <line number="97" hits="3" branch="False" />
+            <line number="99" hits="3" branch="False" />
+            <line number="101" hits="3" branch="False" />
+            <line number="102" hits="3" branch="False" />
+            <line number="103" hits="3" branch="False" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>
